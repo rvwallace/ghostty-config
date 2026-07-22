@@ -1,0 +1,36 @@
+window-padding-x = 4,2
+window-padding-y = 6,0
+
+window-show-tab-bar = auto
+window-save-state = never
+
+shell-integration = detect
+shell-integration-features = cursor, sudo, title, ssh-env, ssh-terminfo
+
+font-family = "DaddyTimeMono Nerd Font Mono"
+font-size = 16
+
+confirm-close-surface = false
+
+# Toggle the quick terminal.
+keybind = global:cmd+ctrl+shift+opt+t=toggle_quick_terminal
+
+macos-option-as-alt = true
+macos-dock-drop-behavior = window
+
+quick-terminal-animation-duration = 0.08
+
+notify-on-command-finish = unfocused
+notify-on-command-finish-action = no-bell,notify
+notify-on-command-finish-after = 30s
+
+keybind = super+i=inspector:toggle
+keybind = super+r=reload_config
+
+# On macOS, changing this configuration requires restarting Ghostty completely.
+background-opacity = 0.95
+
+unfocused-split-opacity = 0.9
+minimum-contrast = 1.1
+
+theme = TokyoNight Night

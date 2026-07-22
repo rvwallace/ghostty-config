@@ -1,0 +1,28 @@
+# OS and editor state
+.DS_Store
+._*
+*.swp
+*.swo
+*~
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Backups, caches, and generated state
+*.bak
+*.backup.*
+*.tmp
+.cache/
+
+# Local AI/agent harnesses and personal notes
+AGENTS.md
+CLAUDE.md
+.agents/
+.codex/
+.claude/
+NOTES.md
+notes/
