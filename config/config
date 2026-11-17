@@ -26,12 +26,12 @@ notify-on-command-finish-after = 30s
 
 keybind = super+i=inspector:toggle
 keybind = super+r=reload_config
-keybind = super+shift+o=toggle_background_opacity
+# keybind = super+shift+o=toggle_background_opacity
 
 # On macOS, changing this configuration requires restarting Ghostty completely.
-background-opacity = 0.95
+# background-opacity = 0.95
 
-unfocused-split-opacity = 0.9
+# unfocused-split-opacity = 0.9
 minimum-contrast = 1.1
 
-theme = TokyoNight Night
+theme = TokyoNight
